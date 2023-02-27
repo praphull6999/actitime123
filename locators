@@ -6,3 +6,5 @@ driver.findelementby.linktext
 driver.findelementby.partiallinktext
 driver.findelementby.css
 driver.findelementby.xpath
+driver.manage().window().maximize();
+driver.manage().timeout().implicitlywait(Duration.of seconds(10));
